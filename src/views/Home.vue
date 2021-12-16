@@ -18,6 +18,7 @@ export default {
 
 <style scoped>
 .home {
+  position: relative;
   height: 100%;
   width: 100%;
 }

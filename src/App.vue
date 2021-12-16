@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">二三维联动地图</router-link> |
+    <router-link to="/about">关于</router-link>
   </div>
   <div id="main">
     <router-view />
@@ -26,7 +26,7 @@
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #0093d1;
     }
   }
 }
