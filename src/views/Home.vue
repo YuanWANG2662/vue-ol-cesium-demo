@@ -1,18 +1,24 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CesiumViewer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import CesiumViewer from '@/components/CesiumViewer.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    CesiumViewer
   }
 }
 </script>
+
+<style scoped>
+.home {
+  height: 100%;
+  width: 100%;
+}
+</style>
